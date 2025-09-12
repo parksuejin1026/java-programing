@@ -19,6 +19,12 @@ public class ScannerExample {
 		System.out.println("x + y: " + result);
 		System.out.println();
 		
+		int temp = x;
+		x = y;
+		y = temp;
+		
+		System.out.printf("x값은 : %d y값은 : %d\n", x, y);
+		
 		while(true) {
 			System.out.print("입력 문자열: ");
 			String data = scanner.nextLine();

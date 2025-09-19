@@ -24,7 +24,7 @@ public class LogicalOperatorExample {
 		}
 		
 		boolean result = (value%2 == 0) || (value%3 == 0);
-		if(!result) {
+		if(!result) { 
 			System.out.println("2 또는 3의 배수가 아니군요.");
 		}
 	}

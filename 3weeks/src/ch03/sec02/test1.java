@@ -7,7 +7,7 @@ public class test1 {
 		int bs = 0;
 		int result1 = apple / 10;
 		bs += result1;
-		int result2 = apple % 10;
+		int result2 = apple % 10; 
 		if(result2 != 0)
 			System.out.println(++bs);
 		else

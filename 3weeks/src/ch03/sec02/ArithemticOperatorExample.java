@@ -6,7 +6,7 @@ public class ArithemticOperatorExample {
 		byte v1 = 10;
 		byte v2 = 4;
 		int v3 = 5;
-		long v4 = 10L;
+		long v4 = 10L; 
 		
 		int result1 = v1 + v2;
 		System.out.println("result1: " + result1);
